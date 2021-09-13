@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.contact {
+    padding: 10px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:active {
+    color: orange;
+}
+.navbar-nav .nav-item{ 
+    display: flex;
+    justify-content: end;
+}
+.navbar-toggler-icon button{
+    color: white; 
+    /* nece da radi */
+}
+.service__img {
+    width: 100%;
+}
+button {
+    background-color: orange;
+}
+
+
+
