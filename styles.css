@@ -6,7 +6,6 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
 .header {
   display: flex;
   flex-direction: row;
@@ -84,6 +83,8 @@ html {
 
 /* ABOUT */
 
+/* ROAD */
+
 /* CONTACT */
 .contact-left {
   background-color: orange;
@@ -97,4 +98,9 @@ html {
   margin-top: 10px;
   padding: 10px;
   background-color: orange;
+}
+
+/* FOOTER */
+.footer-container {
+  background-color: rgb(235, 204, 148);
 }
