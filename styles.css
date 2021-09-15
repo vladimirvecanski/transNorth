@@ -83,3 +83,18 @@ html {
 }
 
 /* ABOUT */
+
+/* CONTACT */
+.contact-left {
+  background-color: orange;
+}
+.form-control {
+  border: none;
+  border-bottom: 1px solid orange;
+  padding-top: 10px;
+}
+.btn-contact {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: orange;
+}

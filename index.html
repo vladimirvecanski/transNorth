@@ -11,6 +11,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   </head>
@@ -218,7 +222,7 @@
                 enas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do eiusmod tempor.
               </p>
-              <a href="#" class="btn btn-info">Vise o tome</a>
+              <a href="#" class="btn btn-dark">Vise o tome</a>
             </div>
           </div>
         </div>
@@ -241,7 +245,7 @@
                 enas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do eiusmod tempor.
               </p>
-              <a href="#" class="btn btn-info">Vise o tome</a>
+              <a href="#" class="btn btn-dark">Vise o tome</a>
             </div>
           </div>
         </div>
@@ -264,7 +268,7 @@
                 enas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do eiusmod tempor.
               </p>
-              <a href="#" class="btn btn-info">Vise o tome</a>
+              <a href="#" class="btn btn-dark">Vise o tome</a>
             </div>
           </div>
         </div>
@@ -287,7 +291,7 @@
                 enas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do eiusmod tempor.
               </p>
-              <a href="#" class="btn btn-info">Vise o tome</a>
+              <a href="#" class="btn btn-dark">Vise o tome</a>
             </div>
           </div>
         </div>
@@ -327,31 +331,68 @@
       <!-- CONTACT -->
       <div class="contact-container m-5 p-5" id="contact">
         <div class="contact row justify-content-center">
-          <div class="contact-left col-md-3 bg-warning">
-            <h1>Kontakt</h1>
-            <p>Za sva pitanja ili sugestije slobodno nas kontaktirajte</p>
-            <span class="address"></span>
-            <span class="phone"></span>
-            <span class="email"></span>
-            <span class="website"></span>
+          <div class="contact-left col-md-3">
+            <h1 class="pt-3">Kontakt</h1>
+            <p>Za sva pitanja ili sugestije slobodno nas kontaktirajte:</p>
+            <div class="dbox w-100 d-flex align-items-start pt-3">
+              <span class="fa fa-map-marker"></span>
+              <p class="pl-3">
+                <span>Adresa: </span> 21000 Novi Sad, Srdjana Andrica 22
+              </p>
+            </div>
+            <div class="dbox w-100 d-flex align-items-start">
+              <span class="fa fa-phone"></span>
+              <p class="pl-3">
+                <span>Telefon: </span>
+                <a href="tel://123456789">+381 65 3106868</a>
+              </p>
+            </div>
+            <div class="dbox w-100 d-flex align-items-start">
+              <span class="fa fa-paper-plane"></span>
+              <p class="pl-3">
+                <span>Email: </span>
+                <a href="mailto:info@yoursite.com">office@transnorth.rs</a>
+              </p>
+            </div>
+            <div class="dbox w-100 d-flex align-items-start">
+              <span class="fa fa-globe"></span>
+              <p class="pl-3">
+                <span>Website: </span><a href="#">www.transnorth.rs</a>
+              </p>
+            </div>
           </div>
           <div class="contact-right col-md-9">
             <h1>Kontaktirajte nas</h1>
-            <h5>FULL NAME</h5>
-            <input type="text" placeholder="Name" />
-            <h5>EMAIL ADDRESS</h5>
-            <input type="text" placeholder="Email" />
-            <h5>SUBJECT</h5>
-            <input type="text" placeholder="Subject" />
-            <h5>MESSAGE</h5>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Ime i prezime:"
+              required
+            />
+            <input
+              class="form-control"
+              type="text"
+              placeholder="E-mail"
+              required
+            />
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Predmet:"
+              required
+            />
             <textarea
+              class="form-control"
               name="Message"
               id="message"
               cols="30"
               rows="10"
-              placeholder="Message"
+              placeholder="Poruka:"
+              required
             ></textarea>
-            <button class="btn btn-warning" type="">Send Message</button>
+            <button class="btn-contact btn" type="submit">
+              Pošalji poruku
+            </button>
           </div>
         </div>
       </div>
@@ -359,41 +400,35 @@
     <!-- FOOTER -->
     <footer>
       <div class="footer-container d-flex justify-content-around">
-        <div class="footer">
-          <div class="footer__company d-block">
+        <div class="footer d-flex col-md-6">
+          <div class="footer-left d-block">
             <img
-              class="footer__img"
+              class="footer__img mb-2"
               src="transnorth.png"
               width="250"
               height="35"
               alt="Logo Image"
             />
             <div class="footer__contact">
-              <p>Tel: +381 65 3106868</p>
-              <p>office@transnorth.rs</p>
+              <p class="ml-2">Tel: +381 65 3106868</p>
+              <p class="ml-2">office@transnorth.rs</p>
             </div>
-            <div class="footer__social">
-              <a href="#" class="social__icon"
-                ><img
-                  src="Shape5.png"
-                  width="15"
-                  height="20"
-                  alt="LinkedIn Icon"
-              /></a>
-              <a href="#" class="social__icon"
-                ><img
-                  src="Shape7.png"
-                  width="15"
-                  height="20"
-                  alt="Twitter Icon"
-              /></a>
-              <a href="#" class="social__icon"
-                ><img
-                  src="Shape6.png"
-                  width="15"
-                  height="20"
-                  alt="Facebook Icon"
-              /></a>
+            <div class="footer-social">
+              <a href="" class="m-2 text-reset">
+                <i class="fa fa-facebook-f"></i>
+              </a>
+              <a href="" class="m-2 text-reset">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="" class="m-2 text-reset">
+                <i class="fa fa-google"></i>
+              </a>
+              <a href="" class="m-2 text-reset">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="" class="m-2 text-reset">
+                <i class="fa fa-linkedin"></i>
+              </a>
             </div>
           </div>
           <div class="footer__columns d-flex">
