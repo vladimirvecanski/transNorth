@@ -73,13 +73,13 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">O NAMA</a>
+            <a class="nav-link" href="#about">O NAMA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">USLUGE</a>
+            <a class="nav-link" href="#services">USLUGE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">KONTAKT</a>
+            <a class="nav-link" href="#contact">KONTAKT</a>
           </li>
         </ul>
       </div>
@@ -195,7 +195,10 @@
         </a>
       </div>
       <!-- SERVICES-->
-      <div class="service-container m-5 p-5 d-flex justify-content-between">
+      <div
+        class="service-container m-5 p-5 d-flex justify-content-between"
+        id="services"
+      >
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -290,13 +293,66 @@
         </div>
       </div>
       <!-- ABOUT -->
-      <div class="about-container m-5 p-5 d-block w-100">
-        <div class="about">
-          <!-- <img
-            class="d-block w-100"
-            src="logistics.jpg"
-            alt="logistics image"
-          /> -->
+      <div class="about-container m-5 p-5" id="about">
+        <div class="about row">
+          <div class="about-left col-md-6">
+            <img
+              class="d-block w-100"
+              src="logistics.jpg"
+              alt="logistics image"
+            />
+          </div>
+          <div class="about-right col-md-6">
+            <h1>O nama</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum su spendisse ultrices gravida. Risus commodo viverra maec
+              enas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Quis ipsum su
+              spendisse ultrices gravida. Risus commodo viverra maec enas
+              accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Quis ipsum su
+              spendisse ultrices gravida. Risus commodo viverra maec enas
+              accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT -->
+      <div class="contact-container m-5 p-5" id="contact">
+        <div class="contact row justify-content-center">
+          <div class="contact-left col-md-3 bg-warning">
+            <h1>Kontakt</h1>
+            <p>Za sva pitanja ili sugestije slobodno nas kontaktirajte</p>
+            <span class="address"></span>
+            <span class="phone"></span>
+            <span class="email"></span>
+            <span class="website"></span>
+          </div>
+          <div class="contact-right col-md-9">
+            <h1>Kontaktirajte nas</h1>
+            <h5>FULL NAME</h5>
+            <input type="text" placeholder="Name" />
+            <h5>EMAIL ADDRESS</h5>
+            <input type="text" placeholder="Email" />
+            <h5>SUBJECT</h5>
+            <input type="text" placeholder="Subject" />
+            <h5>MESSAGE</h5>
+            <textarea
+              name="Message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn-warning" type="">Send Message</button>
+          </div>
         </div>
       </div>
     </main>
