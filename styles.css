@@ -24,9 +24,7 @@ html {
 .nav-link:hover {
   color: orange;
 }
-.nav-item {
-  padding-right: 10px;
-}
+
 .navbar-toggler-icon button {
   color: white;
   /* nece da radi */
