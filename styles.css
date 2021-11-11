@@ -80,6 +80,23 @@ html {
 }
 
 /* ABOUT */
+.about-img,
+.road_img,
+.ship_img,
+.avio_img,
+.train_img {
+  transform: scale(1);
+  transition: transform 0.5s, opacity 1s;
+}
+
+.about-img:hover,
+.road_img:hover,
+.ship_img:hover,
+.avio_img:hover,
+.train_img:hover {
+  opacity: 1;
+  transform: scale(0.85);
+}
 
 /* ROAD */
 
