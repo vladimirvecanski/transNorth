@@ -466,36 +466,44 @@
           </div>
           <div class="contact-right col-md-9">
             <h1>Kontaktirajte nas</h1>
-            <input
-              class="form-control"
-              type="text"
-              placeholder="Ime i prezime:"
-              required
-            />
-            <input
-              class="form-control"
-              type="text"
-              placeholder="E-mail"
-              required
-            />
-            <input
-              class="form-control"
-              type="text"
-              placeholder="Predmet:"
-              required
-            />
-            <textarea
-              class="form-control"
-              name="Message"
-              id="message"
-              cols="30"
-              rows="10"
-              placeholder="Poruka:"
-              required
-            ></textarea>
-            <button class="btn-contact btn" type="submit">
-              Pošalji poruku
-            </button>
+            <form
+              action="https://formsubmit.co/6d5888209c30b3ba1fc59f1122118865"
+              method="POST"
+            >
+              <input
+                class="form-control"
+                type="text"
+                name="name"
+                placeholder="Ime i prezime:"
+                required
+              />
+              <input
+                class="form-control"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+              <input
+                class="form-control"
+                type="text"
+                name="subject"
+                placeholder="Predmet:"
+                required
+              />
+              <textarea
+                class="form-control"
+                name="Message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Poruka:"
+                required
+              ></textarea>
+              <button class="btn-contact btn" type="submit">
+                Pošalji poruku
+              </button>
+            </form>
           </div>
         </div>
       </div>
