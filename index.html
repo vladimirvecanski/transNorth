@@ -41,10 +41,10 @@
       </div>
     </header>
     <!-- NAVBAR -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-dark">
-      <a
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <button
         class="navbar-toggler"
-        type="a"
+        type="button"
         data-toggle="collapse"
         data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01"
@@ -52,16 +52,14 @@
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
-      </a>
-      <div class="collapse navbar-collapse row" id="navbarTogglerDemo01">
-        <a class="navbar-logo col-6" href="#"
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-logo col-4" href="#"
           ><img src="images/transnorth.png" alt="logo" width="250" height="50"
         /></a>
-        <ul class="navbar-nav col-4">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >NASLOVNA<span class="sr-only">(current)</span></a
-            >
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 col-6">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">NASLOVNA</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">O NAMA</a>
@@ -74,7 +72,7 @@
           </li>
         </ul>
         <div class="lang-menu col-2">
-          <a class="selected-lang" href="/english/index.html">ENG</a>
+          <a class="selected-lang nav-link" href="/english/index.html">ENG</a>
         </div>
       </div>
     </nav>
@@ -604,6 +602,7 @@
         >
       </div>
     </footer>
+    <script src="script.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
